@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../libs/ngx-build-seo/src/index.ts"],"names":[],"mappings":"AAAA,cAAc,mCAAmC,CAAC","sourcesContent":["export * from './lib/ngx-build-seo/ngx-build-seo';\n"]}

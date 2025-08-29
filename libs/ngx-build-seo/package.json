@@ -1,0 +1,20 @@
+{
+  "name": "@lpcuong2106/ngx-build-seo",
+  "version": "0.0.1",
+  "description": "SEO utilities for Angular applications",
+  "keywords": ["angular", "seo", "utilities"],
+  "author": "lpcuong2106",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpcuong2106/ngx-build-seo"
+  },
+  "peerDependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/core": "^20.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

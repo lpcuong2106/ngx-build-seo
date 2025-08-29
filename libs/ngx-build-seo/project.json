@@ -16,6 +16,14 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/libs/ngx-build-seo"],
+      "options": {
+        "project": "libs/ngx-build-seo/ng-package.json"
+      },
+      "defaultConfiguration": "production"
     }
   }
 }
