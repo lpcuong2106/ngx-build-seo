@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   templateUrl: './ngx-build-seo.html',
   styleUrl: './ngx-build-seo.css',
 })
-export class NgxBuildSeo {}
+export class NgxBuildSeo {
+  constructor() {
+  }
+
+  test(){
+    console.log('ngx-build-seo');
+  }
+}

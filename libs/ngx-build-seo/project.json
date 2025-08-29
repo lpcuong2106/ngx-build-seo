@@ -26,7 +26,7 @@
       "defaultConfiguration": "production"
     },
     "publish": {
-      "executor": "@nx/js:npm",
+      "executor": "@nx/js:release-publish",
       "outputs": [],
       "options": {
         "packageRoot": "dist/libs/ngx-build-seo"
