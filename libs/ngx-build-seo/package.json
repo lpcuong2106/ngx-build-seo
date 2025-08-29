@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/lpcuong2106/ngx-build-seo"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "peerDependencies": {
     "@angular/common": "^20.0.0",
     "@angular/core": "^20.0.0"
