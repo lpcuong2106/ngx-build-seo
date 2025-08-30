@@ -12,6 +12,9 @@ jobs:
     permissions:
       pages: write
       contents: write
+      packages: write         # Required for npm publishing
+      metadata: read          # Required for repository access
+      actions: read
       id-token: write # needed for provenance data generation
     timeout-minutes: 10
     steps:
