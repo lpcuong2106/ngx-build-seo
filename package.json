@@ -11,7 +11,7 @@
     "@nx/eslint-plugin": "21.4.1",
     "@nx/jest": "21.4.1",
     "@nx/js": "^21.4.1",
-    "@schematics/angular": "~20.1.0",
+    "@schematics/angular": "~20.2.0",
     "@swc-node/register": "~1.11.0",
     "@swc/core": "~1.13.0",
     "@swc/helpers": "~0.5.11",
