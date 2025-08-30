@@ -56,7 +56,8 @@
   "release": {
     "changelog": {
       "workspaceChangelog": {
-        "createRelease": "github"
+        "createRelease": "github",
+        "conventionalCommits": true
       }
     }
   }
