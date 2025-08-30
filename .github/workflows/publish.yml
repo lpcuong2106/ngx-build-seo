@@ -45,5 +45,6 @@ jobs:
         run: npx nx release -y
         shell: bash
         env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
