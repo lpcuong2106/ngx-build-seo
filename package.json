@@ -16,7 +16,7 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/jest": "^30.0.0",
-    "@types/node": "20.19.9",
+    "@types/node": "20.19.11",
     "@typescript-eslint/utils": "^8.29.0",
     "angular-eslint": "^20.0.0",
     "eslint": "^9.8.0",
