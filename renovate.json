@@ -1,0 +1,118 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchPackageNames": [
+        "lint",
+        "prettier"
+      ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "groupName": "NestJS packages",
+      "matchPackageNames": [
+        "nest-cli",
+        "@nestjs/cli",
+        "/^@nestjs//"
+      ],
+      "schedule": [
+        "before 6am"
+      ],
+      "automerge": false
+    },
+    {
+      "groupName": "Angular packages",
+      "matchPackageNames": [
+        "angular-cli",
+        "@angular/cli",
+        "typescript",
+        "rxjs",
+        "zone.js",
+        "ng-packagr",
+        "protractor",
+        "karma",
+        "jasmine-core",
+        "jasmine-spec-reporter",
+        "@types/jasmine",
+        "@types/jasminewd2",
+        "primeng",
+        "primeicons",
+        "primeflex",
+        "@ngrx/store",
+        "@ngrx/effects",
+        "@ngrx/router-store",
+        "@ngrx/entity",
+        "@ngrx/data",
+        "@ngrx/component-store",
+        "@ngrx/store-devtools",
+        "/^@angular//",
+        "/^@angular-devkit//",
+        "/^@angular-eslint//",
+        "/^@nguniversal//",
+        "/^@ngrx//",
+        "/^primeng/",
+        "/^primeicons/",
+        "/^primeflex/"
+      ],
+      "schedule": [
+        "before 6am"
+      ],
+      "automerge": false
+    },
+    {
+      "groupName": "ESLint packages",
+      "matchPackageNames": [
+        "eslint",
+        "@eslint/js",
+        "@eslint/eslintrc",
+        "@typescript-eslint/parser",
+        "@typescript-eslint/eslint-plugin",
+        "eslint-plugin-import",
+        "eslint-plugin-node",
+        "eslint-plugin-promise",
+        "eslint-plugin-standard",
+        "eslint-config-prettier",
+        "eslint-plugin-prettier",
+        "/^eslint/",
+        "/^@eslint//",
+        "/^@typescript-eslint//"
+      ],
+      "schedule": [
+        "before 6am"
+      ],
+      "automerge": true
+    },
+    {
+      "registryUrls": [
+        "https://npm.pkg.github.com"
+      ],
+      "matchPackageNames": [
+        "/^@lpcuong2106//"
+      ]
+    }
+  ],
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "https://npm.pkg.github.com"
+    }
+  ]
+}
