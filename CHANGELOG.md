@@ -1,3 +1,13 @@
+## 2.4.0 (2025-08-30)
+
+### 🚀 Features
+
+- build service ([5214d49](https://github.com/lpcuong2106/ngx-build-seo/commit/5214d49))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.3.0 (2025-08-30)
 
 ### 🚀 Features
