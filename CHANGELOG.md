@@ -1,3 +1,14 @@
+## 2.2.0 (2025-08-30)
+
+### 🚀 Features
+
+- add user namw yml ([6c2aff3](https://github.com/lpcuong2106/ngx-build-seo/commit/6c2aff3))
+- add user namw yml ([114f25e](https://github.com/lpcuong2106/ngx-build-seo/commit/114f25e))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.1.0 (2025-08-30)
 
 ### 🚀 Features
