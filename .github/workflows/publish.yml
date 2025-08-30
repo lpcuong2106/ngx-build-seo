@@ -13,7 +13,6 @@ jobs:
       pages: write
       contents: write
       packages: write         # Required for npm publishing
-      metadata: read          # Required for repository access
       actions: read
       id-token: write # needed for provenance data generation
     timeout-minutes: 10
@@ -43,7 +42,7 @@ jobs:
         shell: bash
 
       - name: Publish packages
-        run: npx nx release
+        run: npx nx release -y
         shell: bash
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
