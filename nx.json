@@ -54,10 +54,12 @@
     }
   ],
   "release": {
+    "version": {
+      "conventionalCommits": true
+    },
     "changelog": {
       "workspaceChangelog": {
-        "createRelease": "github",
-        "conventionalCommits": true
+        "createRelease": "github"
       }
     }
   }
