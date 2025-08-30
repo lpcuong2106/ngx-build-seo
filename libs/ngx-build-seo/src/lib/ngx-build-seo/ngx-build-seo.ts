@@ -11,6 +11,6 @@ export class NgxBuildSeo {
   }
 
   test(){
-    console.log('ngx-build-seo1');
+    console.log('ngx-build-seo12');
   }
 }
