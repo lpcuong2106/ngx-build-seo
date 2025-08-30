@@ -1,3 +1,13 @@
+## 2.3.0 (2025-08-30)
+
+### 🚀 Features
+
+- add token ([0892365](https://github.com/lpcuong2106/ngx-build-seo/commit/0892365))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.2.0 (2025-08-30)
 
 ### 🚀 Features
