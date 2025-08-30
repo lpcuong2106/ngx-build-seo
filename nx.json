@@ -52,5 +52,12 @@
         }
       }
     }
-  ]
+  ],
+  "release": {
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
+    }
+  }
 }
