@@ -36,6 +36,18 @@
         "parallel": false
       },
       "dependsOn": ["build"]
+    },
+    "publish-github": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
+        "commands": [
+          "echo 'Publishing to GitHub registry...'",
+          "npm publish --registry=https://npm.pkg.github.com --access=public"
+        ],
+        "parallel": false
+      },
+      "dependsOn": ["build"]
     }
   }
 }
