@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  releaseNPMRegistry:
     name: Publish
     runs-on: ubuntu-latest
     permissions:
@@ -52,11 +52,12 @@ jobs:
       - name: Build the package for publishing github registry
         run: npx nx build ngx-build-seo
 
-  release:
+  releaseGitHubRegistry:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
+    needs: [releaseNPMRegistry]
     steps:
       - uses: actions/checkout@v4
       # Setup .npmrc file to publish to GitHub Packages
