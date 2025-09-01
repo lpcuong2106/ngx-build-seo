@@ -1,3 +1,13 @@
+## 2.14.0 (2025-09-01)
+
+### 🚀 Features
+
+- add test ([bcd6557](https://github.com/lpcuong2106/ngx-build-seo/commit/bcd6557))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.13.0 (2025-09-01)
 
 ### 🚀 Features
