@@ -26,7 +26,7 @@
       "defaultConfiguration": "production"
     },
     "publish-npm": {
-      "executor": "@nx/workspace:run-commands",
+      "executor": "nx:run-commands",
       "options": {
         "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
         "commands": [
@@ -38,7 +38,7 @@
       "dependsOn": ["build"]
     },
     "publish-github": {
-      "executor": "@nx/workspace:run-commands",
+      "executor": "nx:run-commands",
       "options": {
         "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
         "commands": [
