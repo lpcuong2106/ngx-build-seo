@@ -1,3 +1,13 @@
+## 2.8.0 (2025-09-01)
+
+### 🚀 Features
+
+- add lib ([897cda4](https://github.com/lpcuong2106/ngx-build-seo/commit/897cda4))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.7.0 (2025-09-01)
 
 ### 🚀 Features
