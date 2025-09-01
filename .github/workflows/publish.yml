@@ -50,6 +50,6 @@ jobs:
           NPM_CONFIG_PROVENANCE: true
 
       - name: Publish to GitHub Registry
-        run: npx nx run-many --target=publish-github --projects=tag:publishable --parallel=1
+        run: npm publish --registry=https://npm.pkg.github.com
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}

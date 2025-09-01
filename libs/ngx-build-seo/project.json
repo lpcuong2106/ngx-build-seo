@@ -24,34 +24,6 @@
         "project": "libs/ngx-build-seo/ng-package.json"
       },
       "defaultConfiguration": "production"
-    },
-    "publish-npm": {
-      "executor": "nx:run-commands",
-      "options": {
-        "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
-        "commands": [
-          "echo 'Publishing to npm registry...'",
-          "npm publish --registry=https://registry.npmjs.org --access=public"
-        ],
-        "env": {
-          "NPM_CONFIG_@lpcuong2106:registry": "https://npm.pkg.github.com/",
-          "NPM_CONFIG_//npm.pkg.github.com/:_authToken": "${GITHUB_TOKEN}"
-        },
-        "parallel": false
-      },
-      "dependsOn": ["build"]
-    },
-    "publish-github": {
-      "executor": "nx:run-commands",
-      "options": {
-        "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
-        "commands": [
-          "echo 'Publishing to GitHub registry...'",
-          "npm publish --registry=https://npm.pkg.github.com --access=public"
-        ],
-        "parallel": false
-      },
-      "dependsOn": ["build"]
     }
   }
 }
