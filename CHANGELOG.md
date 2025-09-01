@@ -1,3 +1,13 @@
+## 2.7.0 (2025-09-01)
+
+### 🚀 Features
+
+- add scrip ([b5070c3](https://github.com/lpcuong2106/ngx-build-seo/commit/b5070c3))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.6.0 (2025-09-01)
 
 ### 🚀 Features
