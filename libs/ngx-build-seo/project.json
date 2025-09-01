@@ -24,6 +24,18 @@
         "project": "libs/ngx-build-seo/ng-package.json"
       },
       "defaultConfiguration": "production"
+    },
+    "publish-npm": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "cwd": "{workspaceRoot}/dist/libs/ngx-build-seo",
+        "commands": [
+          "echo 'Publishing to npm registry...'",
+          "npm publish --registry=https://registry.npmjs.org --access=public"
+        ],
+        "parallel": false
+      },
+      "dependsOn": ["build"]
     }
   }
 }
