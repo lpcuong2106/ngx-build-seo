@@ -1,3 +1,13 @@
+## 2.6.0 (2025-09-01)
+
+### 🚀 Features
+
+- add tag ([5c673a6](https://github.com/lpcuong2106/ngx-build-seo/commit/5c673a6))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.5.0 (2025-09-01)
 
 ### 🚀 Features
