@@ -1,3 +1,13 @@
+## 2.17.0 (2025-09-01)
+
+### 🚀 Features
+
+- add test dependency ([4dd04a8](https://github.com/lpcuong2106/ngx-build-seo/commit/4dd04a8))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.16.0 (2025-09-01)
 
 ### 🚀 Features
