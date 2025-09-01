@@ -33,6 +33,10 @@
           "echo 'Publishing to npm registry...'",
           "npm publish --registry=https://registry.npmjs.org --access=public"
         ],
+        "env": {
+          "NPM_CONFIG_@lpcuong2106:registry": "https://npm.pkg.github.com/",
+          "NPM_CONFIG_//npm.pkg.github.com/:_authToken": "${GITHUB_TOKEN}"
+        },
         "parallel": false
       },
       "dependsOn": ["build"]
