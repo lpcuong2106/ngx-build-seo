@@ -1,3 +1,13 @@
+## 2.10.0 (2025-09-01)
+
+### 🚀 Features
+
+- add authentication ([624ce02](https://github.com/lpcuong2106/ngx-build-seo/commit/624ce02))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.9.0 (2025-09-01)
 
 ### 🚀 Features
