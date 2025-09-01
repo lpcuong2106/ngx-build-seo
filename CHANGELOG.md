@@ -1,3 +1,13 @@
+## 2.12.0 (2025-09-01)
+
+### 🚀 Features
+
+- add test ([9ca2e83](https://github.com/lpcuong2106/ngx-build-seo/commit/9ca2e83))
+
+### ❤️ Thank You
+
+- lpcuong2106 @Sharenows
+
 ## 2.11.0 (2025-09-01)
 
 ### 🚀 Features
